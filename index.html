@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Satyajeet Dash | Data Engineer</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">SD</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="darkModeToggle">🌙</button>
+</nav>
+
+<section id="home" class="section home fade-in">
+    <h1>Hello, I'm <span>Satyajeet Dash</span></h1>
+    <p>Azure Data Engineer | Databricks | Spark | Medallion Architecture</p>
+
+    <div class="buttons">
+        <a href="resume.pdf" download class="btn">Download Resume</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2>Featured Projects</h2>
+
+    <div class="project-card fade-in">
+        <img src="images/project1.jpg" alt="Project 1">
+        <h3>Medallion Architecture</h3>
+        <p>Azure + Databricks Bronze-Silver-Gold pipeline.</p>
+    </div>
+
+    <div class="project-card fade-in">
+        <img src="images/project2.jpg" alt="Project 2">
+        <h3>Asset KPI Warehouse</h3>
+        <p>20k+ fact records with optimized Spark SQL.</p>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
